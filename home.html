@@ -32,7 +32,7 @@
                </div>
                <!-- add-money-input-section  -->
               <div id="add-money-form">
-                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <div class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                   <form class="card-body">
                     <div class="form-control">
                       <label class="label">
@@ -48,6 +48,28 @@
                     </div>
                     <div class="form-control mt-6">
                       <button id="addmoney-btn" class="btn btn-primary">Add Money</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <!-- cash out-input-section  -->
+              <div id="cash-out-form">
+                <div class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                  <form class="card-body">
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Amount</span>
+                      </label>
+                      <input type="text" placeholder="Type amount" id="amount" class="input input-bordered" required />
+                    </div>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">4 Digit Pin</span>
+                      </label>
+                      <input type="password" placeholder="4-Digit Pin" id="pin-number"  class="input input-bordered" required />
+                    </div>
+                    <div class="form-control mt-6">
+                      <button id="addmoney-btn" class="btn btn-primary">Cash Out</button>
                     </div>
                   </form>
                 </div>
