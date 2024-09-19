@@ -10,7 +10,8 @@ document.getElementById('login-btn').addEventListener('click', function (event) 
 
     if(phoneNumber === '01305113004' && pinNumber === '1234'){
         // console.log("Your login Successful")
-        window.location.href = './'
+        // window.location.assign("./home.html")
+        window.location.href("./home.html")
     }
     else(
         alert('invalid phone Number Or pin code')
